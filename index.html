@@ -1,99 +1,124 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos/style.css" />
     <title>Armazém do Café</title>
-
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="imagens/logo-no-bg.png" alt="logo-bg" id="logo-header">
-        <h1>Armazém do Café</h1>
-        <p>Café como deve ser: intenso, quente e inesquecível.</p>
-    </header>
-    <nav id="nav-bar">
+      <img src="imagens/logo-no-bg.png" alt="logo-bg" id="logo-header" />
+      <h1>Armazém do Café</h1>
+      <p>Café como deve ser: intenso, quente e inesquecível.</p>
+      <nav id="nav-bar">
         <a href="#">Inicio</a>
         <a href="#">Sobre Nós</a>
         <a href="#">História</a>
-        <input type="text" id="txtBusca" placeholder=" Buscar..."/>
-    </nav>
-
+        <input type="text" id="txtBusca" placeholder=" Buscar..." />
+      </nav>
+    </header>
     <main>
-        
-        <div id="principal-menu">
-            <h2 id="menu-title">Nosso Cardápio</h2>
-            <h4>Cafés Clássicos</h4>
-            <div class="sub-menu">
-                <p>Espresso</p>
-                <img src="imagens/products.jpg" alt="img-coffee">
-            </div>
-            <div class="sub-menu">
-            <p>Cappuccino</p>
-                <img src="imagens/products.jpg" alt="img-coffee">
-            </div>
-            <div class="sub-menu">
-                <p>Latte</p>
-                    <img src="imagens/products.jpg" alt="img-coffee">
-                </div>
-            <div class="sub-menu">
-                <p>Mocha</p>
-                    <img src="imagens/products.jpg" alt="img-coffee">
-            </div>
-            
-        </div>
+      <div id="principal-menu">
+        <h2 id="menu-title">Nosso Cardápio</h2>
         <section id="welcome">
             <p>
-                No coração de cada xícara está uma história. Na Grão Dourado, nós torramos, moemos e servimos cafés especiais selecionados, vindos das melhores fazendas do Brasil e do mundo. Experimente aromas únicos e viva momentos inesquecíveis.</p>
-        </section>
-        <section id="about-us">
-            <h2>Apaixonados por Café</h2>
-            <p>Somos mais que uma cafeteria — somos uma experiência. Fundada por amantes do café, nossa missão é transformar cada xícara em uma viagem sensorial. Da fazenda à sua mesa, valorizamos cada etapa, com grãos de origem controlada e torrefação artesanal.</p>
-            <ul>
-                <li>Grãos 100% arábica</li>
-                <li>Origem sustentável</li>
-                <li>Apoio a produtores locais</li>
-                <li>Café fresco todos os dias</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contato</h2>
-            <address>
-              Rua dos Baristas, 123 – Seu Estado, BR<br>
-              <a href="tel:+5585999999999">(85) 99999-9999</a><br>
-              <a href="mailto:contato@cafeteriaexemplo.com">contato@cafeteriaexemplo.com</a>
-            </address>
+              No coração de cada xícara está uma história. No Armazém do Café, nós
+              torramos, moemos e servimos cafés especiais selecionados, vindos das
+              melhores fazendas do Brasil e do mundo. Experimente aromas únicos e
+              viva momentos inesquecíveis.
+            </p>
           </section>
+            <div class="sub-menu">
+                <div class="sub-menu-item">
+                  <p>Espresso</p>
+                  <img src="imagens/products.jpg" alt="img-coffee" />
+                  <p class="value-coffee">15,00 R$</p>
+                </div>
+                <div class="sub-menu-item">
+                  <p>Cappuccino</p>
+                  <img src="imagens/products.jpg" alt="img-coffee" />
+                  <p class="value-coffee">20,00 R$</p>
+                </div>
+                <div class="sub-menu-item">
+                  <p>Latte</p>
+                  <img src="imagens/products.jpg" alt="img-coffee" />
+                  <p class="value-coffee">25,00 R$</p>
+                </div>
+                <div class="sub-menu-item">
+                  <p>Mocha</p>
+                  <img src="imagens/products.jpg" alt="img-coffee" />
+                  <p class="value-coffee">30,00 R$</p>
+                </div>
+      </div>
+      <section id="about-us">
+        <h2>Apaixonados por Café</h2>
+        <p>
+          Somos mais que uma cafeteria — somos uma experiência. Fundada por
+          amantes do café, nossa missão é transformar cada xícara em uma viagem
+          sensorial. Da fazenda à sua mesa, valorizamos cada etapa, com grãos de
+          origem controlada e torrefação artesanal.
+        </p>
+        <ul>
+          <li>Grãos 100% arábica</li>
+          <li>Origem sustentável</li>
+          <li>Apoio a produtores locais</li>
+          <li>Café fresco todos os dias</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h2>Contato</h2>
+        <address>
+          Rua dos Baristas, 123 – Seu Estado, BR<br />
+          <a href="tel:+5585999999999">(85) 99999-9999</a><br />
+          <a href="mailto:contato@cafeteriaexemplo.com"
+            >contato@cafeteriaexemplo.com</a
+          >
+        </address>
+      </section>
     </main>
 
-
     <footer>
-        <div>
-          <h4>Horário de Funcionamento</h4>
-          <p>Segunda a Sexta: 08h – 20h<br>
-             Sábado: 09h – 18h<br>
-             Domingo: Fechado</p>
-        </div>
-        <div>
-          <h4>Redes Sociais</h4>
-          <ul>
-            <li><a href="https://instagram.com/cafeteriaexemplo" target="_blank">Instagram</a></li>
-            <li><a href="https://facebook.com/cafeteriaexemplo" target="_blank">Facebook</a></li>
-            <li><a href="https://wa.me/5585999999999" target="_blank">WhatsApp</a></li>
-          </ul>
-        </div>
-        <div>
-          <h4>Privacidade</h4>
-          <p>Coletamos apenas dados essenciais para sua experiência.<br>
-             <a href="/politica-de-privacidade.html">Leia nossa política completa</a></p>
-        </div>
-        <hr>
-        <div>
-          <p>© 2025 Cafeteria Exemplo. Todos os direitos reservados.</p>
-          <p>Desenvolvido por Victor Sales</p>
-        </div>
-      </footer>
-    
-</body>
+      <div>
+        <h4>Horário de Funcionamento</h4>
+        <p>
+          Segunda a Sexta: 08h – 20h<br />
+          Sábado: 09h – 18h<br />
+          Domingo: Fechado
+        </p>
+      </div>
+      <div>
+        <h4>Redes Sociais</h4>
+        <ul>
+          <li>
+            <a href="https://instagram.com/cafeteriaexemplo" target="_blank"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="https://facebook.com/cafeteriaexemplo" target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://wa.me/5585999999999" target="_blank">WhatsApp</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h4>Privacidade</h4>
+        <p>
+          Coletamos apenas dados essenciais para sua experiência.<br />
+          <a href="/politica-de-privacidade.html"
+            >Leia nossa política completa</a
+          >
+        </p>
+      </div>
+      <hr />
+      <div>
+        <p>© 2025 Cafeteria Exemplo. Todos os direitos reservados.</p>
+        <p>Desenvolvido por Victor Sales</p>
+      </div>
+    </footer>
+  </body>
 </html>
