@@ -3,7 +3,7 @@
 Projeto pessoal de uma landing page de um  café
 - Versão inicial, com algumas modificações no header e nos produtos.
 
-# ☕ Landing Page - Café [Nome do Café]
+# ☕ Landing Page - Café [Armazém do Café]
 
 Bem-vindo ao repositório da landing page do Café [Armazém do Café] — um projeto com design minimalista e uma pegada tech, criado por Victor Sales.
 
