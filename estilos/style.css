@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  background-image: url("../imagens/background.jpg");
+  background-image: url("../imagens/fundo-header.jpg");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -111,6 +111,11 @@ section #imagem-trabalho {
   font-family: var(--font-quick);
   font-weight: 400;
 }
+#principal-menu {
+  background-color: #aa704457;
+  margin: 15px;
+  border-radius: 5px;
+}
 .sub-menu {
   display: flex;
   justify-content: center;
@@ -156,7 +161,6 @@ section #imagem-trabalho {
 }
 #mapas {
   position: relative;
-  margin: 0px -20px 30px -20px;
   padding: 20px;
   padding-bottom: 56.5%;
   
