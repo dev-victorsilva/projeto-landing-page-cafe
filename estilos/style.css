@@ -27,7 +27,7 @@ header {
   font-family: var(--font-quick);
   font-weight: 600;
 }
-#logo-header {
+#logo-cafe {
   width: 200px;
 }
 header h1 {
@@ -43,69 +43,69 @@ header p {
   font-size: 1.4em;
 }
 
-#nav-bar {
+#barra-navegacao {
   text-align: right;
   padding: 10px;
 }
-#nav-bar a {
+#barra-navegacao a {
   text-decoration: none;
   color: #fefefa;
   padding: 10px;
   font-family: var(--font-quick);
 }
-#nav-bar input {
+#barra-navegacao input {
   height: 22px;
   border-radius: 5px;
 }
-#nav-bar a:hover {
+#barra-navegacao a:hover {
   background-color: #402d22;
   box-shadow: 0 0 12px #c39898, 0 0 24px #a47149;
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
 }
-#about-us {
+#sobre-nos {
   background-color: #aa704457;
   padding: 15px;
   margin: 15px;
   border-radius: 5px;
   
 }
-#about-us h2 {
+#sobre-nos h2 {
   font-size: 1.6em;
   margin: 10px;
   font-family: var(--font-quick);
   padding: 10px;
   color: #402d22;
 }
-#about-us p {
+#sobre-nos p {
   padding: 10px;
   font-family: var(--font-quick);
 }
-#about-us ul {
+#sobre-nos ul {
   font-family: var(--font-quick);
   list-style-position:inside;
   list-style-type: '\2615';
 }
 
-#title-aboutus {
+#titulo-sobre-nos {
   text-align: center;
   text-shadow: 0 0 12px #0000001f, 0 0 24px #a470496b;
   font-family: var(--font-quick);
 
 }
-section #about-img {
+section #imagem-trabalho {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 0 0 12px #0000001f, 0 0 24px #a470496b;
 }
-#menu-title {
+#titulo-cardapio {
   text-align: center;
   padding: 20px;
   font-family: var(--font-quick);
   font-size: 2em;
   color:#402d22;
 }
-#welcome p {
+#paragrafo-adicional p {
   text-align: center;
   font-size: 1.2em;
   font-family: var(--font-quick);
@@ -143,35 +143,31 @@ section #about-img {
     gap: 40px;
 }
 
-#contact {
+#contato {
   font-family: var(--font-quick);
   text-align: center;
   padding: 10px;
 
 }
-#contact  h2 {
+#contato  h2 {
   font-size: 2em;
   padding: 10px;
   color: #402d22;
 }
-#maps {
+#mapas {
   position: relative;
   margin: 0px -20px 30px -20px;
   padding: 20px;
   padding-bottom: 56.5%;
   
 }
-#maps > iframe {
+#mapas > iframe {
   position: absolute;
     top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
 }
-footer #general {
-  text-decoration: none;
-}
-
 footer {
   background-color: black;
   padding: 10px;
@@ -186,45 +182,45 @@ footer p {
 
 }
 
-footer #work-time {
+footer #horario-funcionamento {
   text-align: center;
   font-family: var(--font-quick);
 }
-footer #socials {
+footer #redes-sociais {
   font-family: var(--font-quick);
   padding: 10px;
 }
-#socials ul {
+#redes-sociais ul {
   list-style-position: inside;
   padding: 10px;
 }
 
-footer #socials a {
+footer #redes-sociais a {
   color: white;
 }
-footer #socials a:hover {
+footer #redes-sociais a:hover {
   color: #402d22;;
 }
-footer #privacy-policy {
+footer #politica-de-privacidade {
   background-color: rgb(0, 0, 0);
   font-family: var(--font-quick);
 
 
 }
-footer #privacy-policy a {
+footer #politica-de-privacidade a {
   background-color: rgb(0, 0, 0);
   font-family: var(--font-quick);
 
   color: white;
 
 }
-footer #privacy-policy a:hover {
+footer #politica-de-privacidade a:hover {
   font-family: var(--font-quick);
   text-decoration: none;
   color: #402d22;;
 
 }
-footer .developed-by {
+footer .desenvolvedor {
   text-align: center;
   font-family: var(--font-quick);
   padding: 10px 10px;
