@@ -17,7 +17,8 @@ body {
 }
 
 header {
-  background-image: url("../imagens/fundo-header.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+  url('../imagens/fundo-header.jpg');
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -40,11 +41,11 @@ header p {
   color: #402d22;
   font-family: var(--font-pacific);
   font-weight: lighter;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 #barra-navegacao {
-  text-align: right;
+  text-align: center;
   padding: 10px;
 }
 #barra-navegacao a {
@@ -58,25 +59,19 @@ header p {
   border-radius: 5px;
 }
 #barra-navegacao a:hover {
-  background-color: #402d22;
-  box-shadow: 0 0 12px #c39898, 0 0 24px #a47149;
+  background-color: #402d2267;
+  box-shadow: 0 0 12px #ffffff, 0 0 24px #a4704933;
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
 }
 #sobre-nos {
-  background-color: #aa704457;
-  padding: 15px;
-  margin: 15px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
+  padding: 10px;
+  margin: 10px;
   border-radius: 5px;
   
 }
-#sobre-nos h2 {
-  font-size: 1.6em;
-  margin: 10px;
-  font-family: var(--font-quick);
-  padding: 10px;
-  color: #402d22;
-}
+
 #sobre-nos p {
   padding: 10px;
   font-family: var(--font-quick);
@@ -89,20 +84,25 @@ header p {
 
 #titulo-sobre-nos {
   text-align: center;
-  text-shadow: 0 0 12px #0000001f, 0 0 24px #a470496b;
   font-family: var(--font-quick);
+  font-size: 2.5em;
+  margin: 10px;
+  font-family: var(--font-quick);
+  padding: 10px;
+  color: #402d22;
 
 }
 section #imagem-trabalho {
   max-width: 100%;
   border-radius: 10px;
-  box-shadow: 0 0 12px #0000001f, 0 0 24px #a470496b;
+  padding-top: 20px;
+  
 }
 #titulo-cardapio {
   text-align: center;
   padding: 20px;
   font-family: var(--font-quick);
-  font-size: 2em;
+  font-size: 2.5em;
   color:#402d22;
 }
 #paragrafo-adicional p {
@@ -110,11 +110,13 @@ section #imagem-trabalho {
   font-size: 1.2em;
   font-family: var(--font-quick);
   font-weight: 400;
+  padding-top: 10px;
 }
 #principal-menu {
   background-color: #aa704457;
   margin: 15px;
   border-radius: 5px;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
 }
 .sub-menu {
   display: flex;
@@ -133,14 +135,15 @@ section #imagem-trabalho {
   width: 200px; 
 }
 .sub-menu img {
-    width: 200px;
+    width: 200px;;
     padding: 15px;
-    gap: 40px;
+    gap: 30px;
     border-radius: 25px;
 }
 .sub-menu p {
     font-family: var(--font-quick);
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 .sub-menu img:hover {
     width: 200px;
@@ -155,14 +158,16 @@ section #imagem-trabalho {
 
 }
 #contato  h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 10px;
   color: #402d22;
+  padding-bottom: 40px;
 }
 #mapas {
   position: relative;
   padding: 20px;
   padding-bottom: 56.5%;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
   
 }
 #mapas > iframe {
@@ -172,8 +177,64 @@ section #imagem-trabalho {
     width: 90%;
     height: 90%;
 }
+address {
+  padding: 15px;
+  margin: 15px;
+
+}
+address a {
+  padding: 15px;
+  margin: 15px;
+  text-decoration: none;
+  color: #402d22;
+  font-weight: bold;
+
+}
+#delivery {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('../imagens/delivery.png');
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-position: bottom bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644); 
+  margin: 10px;
+  border-radius: 10px;
+}
+#delivery h2{
+  padding: 20px;
+  font-size: 2.5em;
+  color: #dadada;
+  font-family: var(--font-quick);
+  filter: brightness(100%);
+
+}
+
+#botao {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 15px;
+  margin: 15px;
+  background-color: rgba(0, 0, 0, 0.699);
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 2em;
+  font-family: var(--font-quick);
+}
+#botao:hover {
+  transform: scale(1.1);
+}
 footer {
   background-color: black;
+  margin-top: 30px;
   padding: 10px;
   color: white;
   text-align: center;
