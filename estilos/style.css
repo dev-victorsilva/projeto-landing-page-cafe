@@ -18,7 +18,7 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-  url('../imagens/fundo-header.jpg');
+    url("../imagens/fundo-header.jpg");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -65,21 +65,26 @@ header p {
   border-radius: 5px;
 }
 #sobre-nos {
-  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
+  background-image: url("..//imagens/fundo-sobre.png");
+  height: 90vh;
+  background-size: auto 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
-  
 }
-
 #sobre-nos p {
-  padding: 10px;
   font-family: var(--font-quick);
+  text-align: center;
 }
 #sobre-nos ul {
   font-family: var(--font-quick);
-  list-style-position:inside;
-  list-style-type: '\2615';
+  list-style-position: inside;
+  list-style-type: "\2615";
+  text-align: center;
 }
 
 #titulo-sobre-nos {
@@ -90,20 +95,18 @@ header p {
   font-family: var(--font-quick);
   padding: 10px;
   color: #402d22;
-
 }
 section #imagem-trabalho {
   max-width: 100%;
   border-radius: 10px;
   padding-top: 20px;
-  
 }
 #titulo-cardapio {
   text-align: center;
   padding: 20px;
   font-family: var(--font-quick);
   font-size: 2.5em;
-  color:#402d22;
+  color: #402d22;
 }
 #paragrafo-adicional p {
   text-align: center;
@@ -120,10 +123,10 @@ section #imagem-trabalho {
 }
 .sub-menu {
   display: flex;
+  overflow-x: auto;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; 
-  gap: 40px;
+  gap: 30px;
   text-align: center;
   padding: 20px;
 }
@@ -132,32 +135,31 @@ section #imagem-trabalho {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 200px; 
+  width: 200px;
 }
 .sub-menu img {
-    width: 200px;;
-    padding: 15px;
-    gap: 30px;
-    border-radius: 25px;
+  width: 200px;
+  padding: 15px;
+  gap: 30px;
+  border-radius: 25px;
 }
 .sub-menu p {
-    font-family: var(--font-quick);
-    font-size: 1.2em;
-    font-weight: bolder;
+  font-family: var(--font-quick);
+  font-size: 1.2em;
+  font-weight: bolder;
 }
 .sub-menu img:hover {
-    width: 200px;
-    padding: 15px;
-    gap: 40px;
+  width: 200px;
+  padding: 15px;
+  gap: 40px;
 }
 
 #contato {
   font-family: var(--font-quick);
   text-align: center;
   padding: 10px;
-
 }
-#contato  h2 {
+#contato h2 {
   font-size: 2.5em;
   padding: 10px;
   color: #402d22;
@@ -168,19 +170,17 @@ section #imagem-trabalho {
   padding: 20px;
   padding-bottom: 56.5%;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
-  
 }
 #mapas > iframe {
   position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 address {
   padding: 15px;
   margin: 15px;
-
 }
 address a {
   padding: 15px;
@@ -188,28 +188,26 @@ address a {
   text-decoration: none;
   color: #402d22;
   font-weight: bold;
-
 }
 #delivery {
   text-align: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-  url('../imagens/delivery.png');
+    url("../imagens/delivery.png");
   padding: 100px;
   background-repeat: no-repeat;
   background-position: bottom bottom;
   background-size: cover;
   background-attachment: fixed;
-  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644); 
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-#delivery h2{
+#delivery h2 {
   padding: 20px;
   font-size: 2.5em;
   color: #dadada;
   font-family: var(--font-quick);
   filter: brightness(100%);
-
 }
 
 #botao {
@@ -244,7 +242,6 @@ footer h2 {
 }
 footer p {
   color: whitesmoke;
-
 }
 
 footer #horario-funcionamento {
@@ -264,29 +261,25 @@ footer #redes-sociais a {
   color: white;
 }
 footer #redes-sociais a:hover {
-  color: #402d22;;
+  color: #402d22;
 }
 footer #politica-de-privacidade {
   background-color: rgb(0, 0, 0);
   font-family: var(--font-quick);
-
-
 }
 footer #politica-de-privacidade a {
   background-color: rgb(0, 0, 0);
   font-family: var(--font-quick);
 
   color: white;
-
 }
 footer #politica-de-privacidade a:hover {
   font-family: var(--font-quick);
   text-decoration: none;
-  color: #402d22;;
-
+  color: #402d22;
 }
 footer .desenvolvedor {
   text-align: center;
   font-family: var(--font-quick);
   padding: 10px 10px;
-} 
+}
