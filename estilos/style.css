@@ -54,53 +54,13 @@ header p {
   padding: 10px;
   font-family: var(--font-quick);
 }
-#barra-navegacao input {
-  height: 22px;
-  border-radius: 5px;
-}
 #barra-navegacao a:hover {
   background-color: #402d2267;
   box-shadow: 0 0 12px #ffffff, 0 0 24px #a4704933;
   transition: box-shadow 0.3s ease-in-out;
   border-radius: 5px;
 }
-#sobre-nos {
-  background-image: url("..//imagens/fundo-sobre.png");
-  height: 90vh;
-  background-size: auto 20%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.753);
-  padding: 10px;
-  margin: 10px;
-  border-radius: 5px;
-}
-#sobre-nos p {
-  font-family: var(--font-quick);
-  text-align: center;
-}
-#sobre-nos ul {
-  font-family: var(--font-quick);
-  list-style-position: inside;
-  list-style-type: "\2615";
-  text-align: center;
-}
 
-#titulo-sobre-nos {
-  text-align: center;
-  font-family: var(--font-quick);
-  font-size: 2.5em;
-  margin: 10px;
-  font-family: var(--font-quick);
-  padding: 10px;
-  color: #402d22;
-}
-section #imagem-trabalho {
-  max-width: 100%;
-  border-radius: 10px;
-  padding-top: 20px;
-}
 #titulo-cardapio {
   text-align: center;
   padding: 20px;
@@ -124,7 +84,7 @@ section #imagem-trabalho {
 .sub-menu {
   display: flex;
   overflow-x: auto;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 30px;
   text-align: center;
@@ -138,7 +98,7 @@ section #imagem-trabalho {
   width: 200px;
 }
 .sub-menu img {
-  width: 200px;
+  max-width: 200px;
   padding: 15px;
   gap: 30px;
   border-radius: 25px;
@@ -199,7 +159,7 @@ address a {
   background-size: cover;
   background-attachment: fixed;
   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.644);
-  margin: 10px;
+  margin: 15px;
   border-radius: 5px;
 }
 #delivery h2 {
