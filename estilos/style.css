@@ -243,3 +243,11 @@ footer .desenvolvedor {
   font-family: var(--font-quick);
   padding: 10px 10px;
 }
+.desenvolvedor a {
+  color: white;
+  text-decoration: none;
+}
+.desenvolvedor a:hover {
+  color: #402d22;
+  text-decoration: underline;
+}
