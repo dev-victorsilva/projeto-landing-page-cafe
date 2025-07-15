@@ -1,19 +1,21 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-:root {
-  --fonte-menu: "EB Garamond", serif;
-  --font-principal: "Poppins", sans-serif;
-}
 
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  font-family: var(--font-principal);
-}
-html,
+@media screen and (min-width: 992px) {
+  :root {
+    --fonte-menu: "EB Garamond", serif;
+    --font-principal: "Poppins", sans-serif;
+  }
+
+  * {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+  }
+  html,
   body {
     background: url("../imagens/geral/background-new.jpg");
     background-repeat: no-repeat;
@@ -21,54 +23,49 @@ html,
     background-attachment: fixed;
     background-position: center center;
   }
-header {
+  header {
     background-image: linear-gradient(to bottom, black, rgba(0, 0, 0, 0.062));
     max-width: 100%;
   }
-.header-container {
+  .header-container {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     justify-content: space-between;
     align-items: center;
     font-size: 14px;
   }
-.logo-name {
+  .logo-name {
     display: flex;
     align-items: center;
   }
   .logo-name p {
-    display: none;
+    color: white;
+    font-family: var(--fonte-menu);
+    text-transform: uppercase;
   }
   .logo-name img {
     width: 50px;
   }
+
   .menu-itens {
     display: flex;
-    gap: 30px;
+    gap: 20px;
   }
   .show-menu {
-    display: none;
+    display: flex;
   }
-  .menu-itens a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
+
+  .shopping-search {
+    display: flex;
+    gap: 20px;
   }
-  .menu-itens a:hover {
-    color: #b68c4d;
-  }
-  .shopping-search a {
-    color: white;
-  }
-  .shopping-search a:hover {
-    color: #b68c4d;
-  }
+
   .call-action {
     max-width: 600px;
-    padding: 70px;
+    padding: 100px;
   }
   .call-action h1 {
-    font-size: 45px;
+    font-size: 70px;
     max-width: 400px;
     font-family: var(--font-principal);
     font-weight: bold;
@@ -83,17 +80,19 @@ header {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.699);
   }
   .call-action a {
-    padding: 20px 45px;
+    padding: 20px 50px;
     color: white;
     background-color: #b68c4d;
     border-radius: 40px;
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     text-decoration: none;
     font-family: var(--font-principal);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
   }
+
   .call-action a:hover {
     background-color: white;
     color: #b68c4d;
   }
+}
