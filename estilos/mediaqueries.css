@@ -42,6 +42,7 @@
     color: white;
     font-family: var(--fonte-menu);
     text-transform: uppercase;
+    display: flex;
   }
   .logo-name img {
     width: 50px;
